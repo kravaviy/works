@@ -1,0 +1,245 @@
+
+.body{
+	   background-color:#282828;
+		margin: 0 auto;
+		height: 100%;
+	    width: 100%;
+	   max-width: 1440px; 
+}
+
+.header{
+	background-color:#f7fdfe;
+	max-width: 1440px;
+	height: 80px;
+	width: 100%;
+	margin: 0 auto;
+}
+.header .logo {
+	padding:28px 0 0 248px;
+	display:inline-block;
+}
+
+.menu {
+	float: right;
+	padding-right: 60px;
+	}
+
+.menu ul {
+	margin: 0;
+	padding-left: 0;
+	list-style: none;
+}
+
+.menu li {
+	display: inline-block;
+	padding-left: 18px;
+	line-height: 80px;
+	font-family:'MuseoSans_1';
+}
+
+.menu li a {
+	text-decoration: none;
+	font-size: 14px;
+	color: #82868f;
+	text-transform: uppercase;
+}
+
+header a.btn {
+	padding: 12.5px 35px;
+	background-color: #0ebfdd;
+	border-radius: 40px;
+	color: #f7fdfe;
+	font-weight: 700;
+}
+
+.content {
+	background-image: url(../img/fly.jpg);
+	height: 600px;
+	max-width: 100%;
+	text-align: center;
+}
+
+.top_text {
+	padding-bottom: 30px; 
+	padding-top: 400px;
+}
+
+.top_text h1 {
+	color: #f7fdfe;
+	font-size: 44px;
+	text-transform: capitalize;
+	margin : 0;
+}
+
+.top_text h1 img {
+    padding: 5px 30px;
+}
+
+.top_text_2 {
+	color: #f7fdfe;
+	font-size: 20px;
+	max-width: 735px;
+	margin: 0 auto;
+	font-family:'Avenir-Medium';
+}
+
+.about {
+	padding-bottom: 70px;
+	padding-top: 60px;
+}
+
+.about h2 {
+	text-align: center;
+	color: #0ebfdd;
+	font-size: 44px;
+	text-transform: capitalize;
+	margin-top: 0;
+	margin-bottom: 23px;
+	font-family:'Avenir-Heavy';
+}
+
+.about p {
+	text-align: center;
+	color: #45494d;
+	font-size: 20px;
+	max-width: 780px;
+	margin: 0 auto;
+	font-family:'Avenir-Medium';
+}
+
+
+ footer{
+ 	background-color:#45494d;
+ 	max-width:1440px;
+ 	margin:0 auto;
+ }
+footer .footer_top {
+	max-width: 940px;
+	height: 80px;
+	margin: 0 auto;
+	border-bottom: 1px solid #5a5e62;
+}
+.right li { 
+	line-height: 80px;
+	display: inline-block;
+	float: left;
+	padding-left: 30px;
+ }
+ .right li:first-child {
+ 	padding-left: 0;
+ }
+ .right li a {
+ 	color: #d7dee4;
+ 	font-size: 12px;
+ 	text-transform: uppercase;
+ 	text-decoration: none;
+ 	font-family:'MuseoSans_1';
+ }
+  ul.right {
+ 	margin: 0;
+ }
+
+ .left li {
+ 	padding-top: 20px;
+ 	display: inline-block;
+ 	float: right;
+ 	padding-right: 7px;
+
+ }
+
+ ul.left {
+ 	margin: 0;
+ }
+  .footer_copi {
+ 	max-width: 940px;
+ 	margin : 0 auto;
+ 	padding-bottom: 5px;
+ }
+  .footer_copi p {
+ 	color: #73767a;
+ 	font-size: 12px;
+ 	text-align: right;
+ 	font-family:'MuseoSans_1';
+ }
+
+  .content{
+  	max-width:1440px;
+  	margin:0 auto;
+  
+  }
+  .mapBox{
+    padding:0 auto;
+    margin:0 auto;
+	text-align:center;
+  }
+  .map iframe{
+	max-width:1440px;
+	height:599px;
+	width: 100%;
+	background: none;
+	
+}
+.team {
+	background-color: #0ebfdd;
+	padding-bottom: 60px;
+	padding-top: 55px;
+	text-align: center;
+	max-width:1440px;
+	margin:0 auto;
+}
+
+.team h2 {
+	text-align: center;
+	color: #fff;
+	font-size: 44px;
+	text-transform: capitalize;
+	margin-top: 0;
+	font-family:'Avenir-Heavy';
+
+}
+
+.team ul {
+	width: 600px;
+	padding: 0;
+	margin: 0 auto;
+	padding-top: 60px;
+	text-transform: capitalize;
+	color: #f7fdfe;
+}
+
+.team li {
+	display: inline-block;
+	padding-left: 65px;
+}
+
+.team li:first-child {
+	padding-left: 0;
+}
+
+.team li .names {
+	margin-top: 10px;
+	font-size: 18px;
+	font-family:'Avenir-Heavy';
+}
+
+.team li .work {
+	font-size: 16px;
+		font-family:'Avenir-MediumOblique';
+}
+
+.team li p {
+	margin: 0;
+}
+
+.team .team_btn {
+	margin: 0 auto;
+	margin-top: 100px;
+	border: 1px solid #f9fbfb;
+	background: none;
+	color: #f7fdfe;
+	font-size: 14px;
+	padding: 11px 50px;
+	border-radius: 40px;
+	font-family:'MuseoSans_3';
+}
+

@@ -1,0 +1,57 @@
+
+@media only screen and (max-width: 850px){
+	.content_home ul.part_box li {
+		padding: 0 15px;
+	}
+}
+@media only screen and (max-width: 640px){
+	.top_header {
+		text-align: center;
+	}
+	.top_items {
+		margin: 12px 45px;
+	}
+
+	.menu {
+		float: none;
+		padding-right: 0;
+	}
+
+	.logo {
+		padding-left: 0;
+	}
+
+	.menu li {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+.work_home img {
+	padding: 10px 0;
+}
+.footer {
+	text-align: center;
+}
+
+.footer_left {
+	display: block;
+}
+
+.footer_right {
+	float: none;
+	padding-right: 0;
+	padding-top: 10px;
+}
+
+.footer_left li {
+	padding-left: 14px;
+}
+
+.content_home ul.part_box li {
+		padding: 10px 0px;
+		display: block;
+	}
+
+}
+
+

@@ -1,0 +1,76 @@
+.content_contact {
+	background-color: #ecf0f1;
+	color: #444;
+	padding: 50px 0;
+}
+
+.content_contact_home_1 {
+	text-align: center;
+	max-width: 500px;
+	margin: 0 auto;
+	font-size: 25px;
+	padding-bottom: 60px;
+}
+
+.content_contact_home_2 {
+	max-width: 620px;
+	font-size: 16px;
+	font-weight: 300;
+	margin: 0 auto;
+	text-align: justify;
+}
+
+.map {
+	padding: 65px 0 55px;
+	text-align: center;
+}
+.map iframe {
+	max-width: 620px;
+	width: 100%;
+	height: 295px; 
+	border: none;
+}
+
+.form_box {
+	max-width: 620px;
+	margin: 0 auto;
+}
+
+.form {
+	max-width: 420px;
+/*	float: left;*/
+}
+
+.form input[type="text"] {
+	width: 100%;
+	height: 43px;
+	border: 1px solid #c6c8c9;
+	outline: none;
+	margin-bottom: 16px;
+	padding-left: 15px;
+	box-sizing: border-box;
+}
+
+.form textarea {
+	width: 100%;
+	border: 1px solid #c6c8c9;
+	margin-bottom: 18px;
+	padding: 15px 0px 0px 15px;
+	height: 226px;
+	box-sizing: border-box;
+	outline: none;
+}
+
+.form button {
+	width: 120px;
+	height: 23px;
+	border-radius: 2px;
+	background-color: #95a5a6;
+	border: none;
+	padding: 0;
+	font-weight: 700;
+	color: #fff;
+	font-size: 9px;
+	cursor: pointer;
+	outline: none;
+}

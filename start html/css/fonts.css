@@ -1,0 +1,60 @@
+@font-face {
+	font-family: 'Avenir-Heavy';
+	src: url('../fonts/Avenir-Heavy.eot');
+	src: url('../fonts/Avenir-Heavy.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/Avenir-Heavy.woff') format('woff'),
+		 url('../fonts/Avenir-Heavy.ttf') format('truetype') ;
+		 
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'Avenir-Medium';
+	src: url('../fonts/Avenir-Medium.eot');
+	src: url('../fonts/Avenir-Medium.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/Avenir-Medium.woff') format('woff'),
+		 url('../fonts/Avenir-Medium.ttf') format('truetype') ;
+			font-style: normal; 
+			 font-weight: normal;
+ 
+	}
+@font-face {
+	font-family: 'Avenir-MediumOblique';
+	src: url('../fonts/Avenir-MediumOblique.eot');
+	src: url('../fonts/Avenir-MediumOblique.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/Avenir-MediumOblique.woff') format('woff'),
+		 url('../fonts/Avenir-MediumOblique.ttf') format('truetype') ;
+		 	font-style: normal;
+	      font-weight: normal;
+		 
+	}	
+    @font-face {
+	font-family: 'MuseoSans_1';
+	src: url('../fonts/MuseoSans_1.eot');
+	src: url('../fonts/MuseoSans_1.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/MuseoSans_1.woff') format('woff'),
+		 url('../fonts/MuseoSans_1.ttf') format('truetype') ;
+		 	font-style: normal;
+	      font-weight: normal;
+		 
+	}
+	@font-face {
+	font-family: 'MuseoSans_2';
+	src: url('../fonts/MuseoSans_2.eot');
+	src: url('../fonts/MuseoSans_2.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/MuseoSans_2.woff') format('woff'),
+		 url('../fonts/MuseoSans_2.ttf') format('truetype') ;
+		 
+	font-style:normal;
+	font-weight: normal;
+	}
+	@font-face {
+	font-family: 'MuseoSans_3';
+	src: url('../fonts/MuseoSans_3.eot');
+	src: url('../fonts/MuseoSans_3.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/MuseoSans_3.woff') format('woff'),
+		 url('../fonts/MuseoSans_3.ttf') format('truetype') ;
+		 
+	font-style: normal;
+	font-weight: normal;
+	}

@@ -1,0 +1,74 @@
+.content_portfolio {
+	padding-bottom: 65px;
+	padding-top: 70px;
+	background-color: #ecf0f1;
+}
+
+.content_portfolio_picture ul {
+	list-style-type: none;	
+	cursor: pointer;
+	padding-left: 0;
+	max-width: 625px;
+	margin: 0 auto;
+}
+
+.content_portfolio_picture li {
+	display: inline-block;
+	vertical-align:middle;
+	max-width: 100%;
+	height: 190px;
+	width: 300px;	
+	margin-bottom: 20px;
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+}
+
+.content_portfolio_picture li:hover .description_por {
+	top: 20px;
+}
+
+.content_portfolio_picture li:nth-child(odd) {
+	padding-right: 20px;
+}
+
+.content_portfolio_picture li:last-child {
+	background-color: #bababa;
+	box-sizing: border-box;
+}
+
+.content_portfolio_picture li:last-child img {
+	margin-top: 25px;
+	margin-left: 15px;
+}
+
+
+.description_por {
+	font-size: 20px;
+	color: #fff;
+	background-color:rgba(149,165,166,.8);
+	height: 100px;
+	width: 260px;
+	text-align: center;
+	position: absolute;
+	top: 200px;
+	left: 20px;
+	transition: all .5s;
+	padding-top: 50px;
+}
+
+.description_por hr {
+	width: 70px;
+}
+
+.description_por .title {
+	 font-size: 20px;
+	 color: #f9f9f9;
+	 margin: 0;
+
+}
+
+.description_por .brandi {
+	font-size: 10px;
+	color: #f9f9f9;
+}

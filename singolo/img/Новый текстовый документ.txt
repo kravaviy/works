@@ -1,0 +1,106 @@
+
+x
+.bg-img1 {
+    width: 16px; height: 27px;
+    background: url('css_sprites.png') -247px -154px;
+}
+
+x
+.bg-img2 {
+    width: 16px; height: 27px;
+    background: url('css_sprites.png') -247px -107px;
+}
+
+x
+.bg-img3 {
+    width: 59px; height: 59px;
+    background: url('css_sprites.png') -10px -10px;
+}
+
+x
+.bg-img4 {
+    width: 59px; height: 59px;
+    background: url('css_sprites.png') -89px -10px;
+}
+
+x
+.bg-img5 {
+    width: 59px; height: 59px;
+    background: url('css_sprites.png') -10px -89px;
+}
+
+x
+.bg-img6 {
+    width: 59px; height: 59px;
+    background: url('css_sprites.png') -89px -89px;
+}
+
+x
+.bg-img7 {
+    width: 59px; height: 59px;
+    background: url('css_sprites.png') -168px -10px;
+}
+
+x
+.bg-img8 {
+    width: 59px; height: 59px;
+    background: url('css_sprites.png') -168px -89px;
+}
+
+x
+.bg-img9 {
+    width: 32px; height: 32px;
+    background: url('css_sprites.png') -80px -168px;
+}
+
+x
+.bg-img10 {
+    width: 32px; height: 32px;
+    background: url('css_sprites.png') -184px -168px;
+}
+
+x
+.bg-img11 {
+    width: 32px; height: 32px;
+    background: url('css_sprites.png') -247px -10px;
+}
+
+x
+.bg-img12 {
+    width: 32px; height: 32px;
+    background: url('css_sprites.png') -132px -168px;
+}
+
+x
+.bg-img13 {
+    width: 7px; height: 11px;
+    background: url('css_sprites.png') -10px -266px;
+}
+
+x
+.bg-img14 {
+    width: 11px; height: 11px;
+    background: url('css_sprites.png') -247px -201px;
+}
+
+x
+.bg-img15 {
+    width: 13px; height: 8px;
+    background: url('css_sprites.png') -10px -238px;
+}
+
+x
+.bg-menu {
+    width: 25px; height: 25px;
+    background: url('css_sprites.png') -247px -62px;
+}
+
+x
+.bg-up {
+    width: 50px; height: 50px;
+    background: url('css_sprites.png') -10px -168px;
+}
+Drag & Drop files here or select them using:
+
+CHOOSE FILES
+DOWNLOAD 
