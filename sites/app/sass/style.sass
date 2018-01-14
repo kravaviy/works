@@ -1,0 +1,483 @@
+@import "_vars"
+body
+	font-family: 'Roboto', sans-serif
+	font-weight: 400
+	font-size: 16px
+.header
+	background-image: url("../img/fon.jpg")
+	background-repeat: no-repeat
+	background-size: cover
+	min-height: 620px
+	background-position: top center
+.top_header
+	padding-top: 34px
+	.logo
+		display: inline-block
+		line-height: 58px
+	.phone	
+		float: right
+		text-align: right
+		color: #fff
+.header_content
+	h1
+		font-family: $font
+		font-size: 60px
+		font-weight: 400
+		color: #282829
+		span
+			display: block
+			font-size: 37px
+	.sale_box
+		.wrapper
+			.tab	
+				display: block
+				float: left
+				background-color: rgba($blue_color, .25)
+				text-transform: uppercase
+				color: #fff
+				font-weight: 700
+				font-size: 16px
+				cursor: pointer
+				padding: 20px 25px
+				&.active
+					background-color: rgba($blue_color, .6)
+					color: #000
+			.tab_item
+				display: none
+				color: #000
+				&:first-child
+					display: block
+				ul
+					margin: 0
+					padding: 20px 0
+					list-style-type: none
+					li
+						padding: 0px 25px 20px 70px
+						position: relative
+						&::before
+							content: ""
+							position: absolute
+							left: 30px
+							top: 0
+							background-image: url("../img/sprite.png")
+							width: 32px	
+							height: 20px
+							background-position: -291px  -135px
+						&:nth-child(2)::before
+							background-position: -369px  -216px	
+							width: 24px
+							height: 18px
+							left: 34px
+						&:last-child::before
+							width: 26px
+							height: 26px
+							left: 32px
+							background-position: -369px  -170px	
+		.tab_content
+			position: relative
+			padding-bottom: 70px
+			background-color: rgba($blue_color, .6)
+			.btn_red a
+				@extend %btn
+				background-color: $red_color
+				color: #fff
+				position: absolute
+				right: 20px
+				bottom: 20px
+
+
+
+
+
+
+.phone .wrapper .tab
+	font-size: 16px
+	cursor: pointer
+	color: #fff
+.phone .wrapper .active
+	text-decoration: underline
+	color: $red_color
+.phone .tab_item
+	display: none
+	font-size: 35px
+	color: $blue_color
+	font-weight: 700
+.phone .tab_item:first-child
+	display: block
+
+.mfp-container
+	width: 300px
+	height: 300px
+	position: absolute
+	top: 50%
+	left: 50%
+	margin-top: -150px
+	margin-left: -150px
+	.mfp-content
+		background-color: #fff
+		.mfp-close
+			position: absolute
+			top: -12px
+			right: -12px
+#red_form 
+	text-align: center
+	input
+		width: 77%
+		line-height: 40px
+		outline: none
+		margin: 20px auto
+		&:focus
+			border: 2px solid $red_color
+	button.btn_form
+		@extend %btn
+		background-color: $red_color
+		color: #fff
+		margin: 15px auto
+		border: none
+
+.box_1
+	padding: 50px 0px 40px
+	min-height: 150px
+	box-sizing: border-box
+	background: #576c85;
+	background: -moz-linear-gradient(top, #576c85 0%, #e7eff7 100%)
+	background: -webkit-linear-gradient(top, #576c85 0%,#e7eff7 100%)
+	background: linear-gradient(to bottom, #576c85 0%,#e7eff7 100%)
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#576c85', endColorstr='#e7eff7',GradientType=0 )
+	.text
+		padding-left: 80px
+		font-family: $font
+		font-weight: 300
+		text-transform: uppercase
+		color: #003469
+		vertical-align: bottom
+		position: relative
+		box-sizing: content-box
+		&::before
+			content: ""
+			background-image: url("../img/sprite.png")
+			width: 63px
+			height: 55px
+			top: 0
+			left: 0
+			background-position: -67px -255px 
+			position: absolute
+		.text_1
+			font-size: 14px
+		.text_2
+			font-size: 16px
+	.col-md-3:first-child
+		.text
+			width: 110px
+
+		.text_1
+			font-size: 15px
+			line-height: 20px
+	.col-md-3:nth-child(2)
+		.text
+			width: 140px
+		.text::before
+			width: 62px
+			height: 62px
+			left: 0
+			top: -16px
+			background-position: -129px -135px
+		.text_1
+			font-size: 11px
+	.col-md-3:nth-child(3)
+		.text
+			width: 180px 
+
+		.text::before
+			width: 51px
+			height: 66px
+			left: 0
+			top: -16px
+			background-position: -67px -330px
+			
+	.col-md-3:last-child
+		.text
+			width: 173px
+		.text::before
+			left: 0
+			top: -13px
+			background-position: -211px -135px
+			width: 60px
+			height: 60px
+		.text_1
+			font-size: 10px
+			line-height: 27px
+		.text_2
+			font-size: 18px
+.box_2
+	padding: 50px 0px 75px
+	background-color: #ffffff
+	h3
+		font-size: 40px
+		color: #003469
+		text-align: center
+		font-family: $font
+		font-weight: 300
+		padding-bottom: 40px
+		text-transform: uppercase
+	.text_box_2
+		box-sizing: content-box
+		padding-left: 130px
+		padding-top: 15px
+		position: relative
+		&::before
+			content: ""
+			position: absolute
+			top: 60px
+			left: 0 
+			background-image: url("../img/sprite.png")
+			width: 99px
+			height: 100px
+			background-position: -10px -135px
+		&:nth-child(2)::before
+			background-position: -250px -10px
+		&:nth-child(3)
+			padding-top: 40px
+			&::before
+				top: 90px
+				width: 100px
+				height: 105px
+				background-position: -10px -10px
+
+		&:last-child
+			padding-top: 30px
+			&::before
+				top: 90px
+				width: 100px
+				height: 104px
+				background-position: -130px -10px
+
+
+		h4
+			font-family: $font
+			font-weight: 300
+			font-size: 25px
+			padding-bottom: 10px
+			color: $red_color
+		p
+			margin: 0
+			font-size: 16px
+			color: #333
+
+	#form_red
+		border-radius: 5px
+		border: 5px solid $blue_color
+		background-color: #f7f7f7
+		text-align: center
+		.form-text
+			padding: 25px 0
+			color: #444
+			font-size: 22px
+			font-weight: 700
+			
+		p
+			margin: 0
+			padding-left: 30px
+			font-size: 14px
+			color: #666
+			padding-bottom: 5px
+			text-align: left
+		input
+			margin: 0 auto 10px
+			width: 90%
+			outline: none
+			height: 43px
+			font-size: 20px
+		select
+			font-size: 20px
+			width: 90%
+			color: #666
+			height: 43px
+			outline: none
+		button
+			color: #fff
+			margin: 36px 0px 46px
+			background-color: $red_color
+			@extend %btn
+			border: none
+.box_3
+	background-image: url("../img/carousel_fon.jpg")
+	background-repeat: no-repeat
+	background-size: cover
+	background-position: top center
+	min-height: 620px
+	.feedback 
+		background-color: rgba($blue_color, .75)
+		min-height: 620px
+		text-align: center
+		.feedback_top
+			h3
+				font-size: 50px
+				color: #fff
+				line-height: 56px
+				font-family: $font
+				padding: 67px 0px 73px
+				font-weight: 300
+				text-align: center
+			.carousel
+				text-align: center
+				position: relative
+				color: #fff
+
+				.owl-prev
+					position: absolute
+					left: 0%
+					top: 25%
+				.owl-next
+					position: absolute
+					right: 0%
+					top: 25%					
+
+				.name
+					font-size: 22px
+					line-height: 56px
+				.line
+					height: 1px 
+					width: 80px
+					background-color: #cea380
+					margin: 0 auto
+				.name_feedback
+					width: 730px
+					text-align: center
+					margin: 0 auto 74px
+					padding-top: 20px
+					font-size: 15px
+					line-height: 24px
+		.feedback_buttom
+			background-image: url("../img/flag.jpg")
+			background-repeat: no-repeat
+			background-size: cover
+			background-position: top center
+			min-height: 235px
+			text-align: center
+			.text_buttom
+				color: #fff 
+				text-transform: uppercase
+				padding: 12px 0px 20px
+				font-size: 26px
+				line-height: 36px
+				margin: 38px 0px 28px
+				background-color: rgba($blue_color, .7)
+ 
+			
+			a.btn_white
+				@extend %btn
+				background-color: #fff
+				color: #222
+				outline: none
+
+.box_5
+	text-align: center
+	padding-top: 45px
+	.box
+		display: inline-block
+		p 
+			font-family: $font 
+			font-weight: 400
+			font-size: 50px 
+			display: inline-block
+			margin: 0
+			padding-right: 30px
+			float: left
+		.tabs 
+			font-family: 'Roboto'
+			font-weight: 700
+			font-size: 16px
+			text-transform: uppercase
+			display: inline-block
+			margin: 0
+			margin-top: 14px
+			background-color: $red_color
+			border: 5px solid $red_color
+			border-radius: 2px
+			color: #fff
+			padding: 7px 0
+			.tab 
+				padding: 9px 50px	
+				&.active
+					color: $red_color
+					background-color: #fff
+	.tab_content
+		.tab_item
+			display: none
+			margin: 0 auto
+			&:first-child
+				display: block
+			.street
+				padding-left: 100px
+				font-family: 'Roboto'
+				font-weight: 400
+				font-size: 18px
+				color: #333	
+				padding-top: 15px
+				padding-bottom: 25px
+			.map	
+			iframe
+				width: 100%
+				height: 497px
+
+.box_6
+	text-align: center
+	.text 
+		font-family: $font
+		font-weight: 400
+		font-size: 50px
+		padding-top: 85px
+	p 
+		font-family: 'Roboto'
+		font-weight: 400
+		font-size: 18px
+		margin: 0
+		padding-top: 43px
+		padding-bottom: 60px
+	.phone_6
+		.wrapper 
+			.tab 
+				font-size: 16px
+				cursor: pointer
+				color: $red_color
+				&.active
+					text-decoration: underline
+					color: $red_color
+			.tab_item
+				display: none
+				font-size: 35px
+				color: $red_color
+				font-weight: 700
+			.tab_item:first-child
+				display: block
+	.btn_red_5 
+		margin-top: 35px
+		margin-bottom: 190px
+		@extend %btn 
+		background-color: $red_color
+		border: none 
+		width: 230px
+		text-decoration: none
+		a 
+			text-decoration: none
+			color: #fff
+			&:hover 
+				text-decoration: none
+
+#red_form_call
+	text-align: center
+	input
+		width: 77%
+		line-height: 40px
+		outline: none
+		margin: 20px auto 0
+		&:focus
+			border: 2px solid $red_color
+	button.btn_form
+	@extend %btn 
+	background-color: $red_color
+	width: 100%
+		
+
+@import "_media"
