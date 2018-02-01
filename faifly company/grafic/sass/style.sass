@@ -1,0 +1,29 @@
+.bar-green
+  background-color: green
+
+.bar-yellow
+  background-color: yellow
+
+.bar-red
+  background-color: red
+
+.chart__about
+  position: absolute
+  z-index: 50
+  top: 5%
+  right: 5%
+  display: flex
+  flex-flow: column nowrap
+  padding: 20px
+  background-color: #ffffff
+
+.chart__bar-box
+  display: flex
+  align-items: flex-end
+  margin-top: 50px
+
+@for $i from 1 through 20
+  .bar-#{$i*10}
+    height: #{$i*20}px
+    width: 30px
+    margin-right: 5px

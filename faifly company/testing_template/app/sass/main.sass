@@ -1,0 +1,502 @@
+@import "fonts"
+@import "libs"
+@import "vars"
+
+
+*
+	-webkit-box-sizing: border-box
+	-moz-box-sizing: border-box
+	box-sizing: border-box
+	&:before, &:after
+		-webkit-box-sizing: border-box
+		-moz-box-sizing: border-box
+		box-sizing: border-box
+
+*::-webkit-input-placeholder
+	color: #666
+	opacity: 1
+
+*:-moz-placeholder
+	color: #666
+	opacity: 1
+
+*::-moz-placeholder
+	color: #666
+	opacity: 1
+
+*:-ms-input-placeholder
+	color: #666
+	opacity: 1
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: #666
+body input:required:valid,
+body textarea:required:valid
+	color: #666
+
+html, body
+	height: 100%
+
+body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.65
+	overflow-x: hidden
+
+
+a
+	&:hover
+	transition: 0.3s
+	text-decoration: none
+		
+
+
+ 
+
+blockquote
+	border: none
+	font-size: 16px
+
+.menu
+	line-height: 30px
+
+.menu__item
+	text-transform: uppercase
+	padding: 10px
+	display: inline-block
+	font-family: "Roboto"
+	font-weight: 900
+
+.menu__bottom
+	text-transform: uppercase
+	padding-right: 10px
+	display: inline-block
+	color: white
+	&:hover
+		text-decoration: none
+
+.upc
+	text-transform: uppercase
+
+
+.link
+	color: #ffffff
+	text-decoration: none
+	&:hover
+		color: #00e0d0
+		text-decoration: none
+	&:active
+		color: #00e0d0
+		text-decoration: none !important
+
+.sc
+	background-size: cover
+	padding-top: 80px
+	padding-bottom: 80px
+
+.sc-welcome
+	padding-top: 20px
+	padding-bottom: 0px
+	background: url(../img/header.jpg)
+	height: 100vh
+	min-height: 650px
+	background-repeat: no-repeat
+	background-size: cover
+
+.sc-video
+	background: url(../img/video.jpg)
+	background-repeat: no-repeat
+	background-size: cover
+	background-position: center
+	background-repeat: no-repeat
+	height: 70vh
+	position: relative
+
+.sc-team
+	background: url(../img/team.jpg)
+	background-repeat: no-repeat
+	background-size: cover
+	color: white
+
+.sc-about
+	background: url(../img/people.jpg)
+	background-repeat: no-repeat
+	background-size: cover
+	color: white
+
+.sc-footer
+	background: url(../img/footer.jpg)
+	background-repeat: no-repeat
+	background-size: cover
+	color: white
+
+.heading-carousel-top
+	font-size: 2.5em
+	text-transform: capitalize
+	letter-spacing: 0.03em
+	font-weight: 900
+	font-family: 'PlayFairDisplay'
+
+.heading-story
+	font-size: 2.5em
+	letter-spacing: 0.07em
+	margin: 0
+	font-weight: 700
+	font-family: 'PlayFairDisplay'
+
+.heading-expertise, .heading-team, .heading-gal, .heading-news, .heading-client
+	font-size: 2.5em
+	font-weight: normal
+	letter-spacing: 0.07em
+	font-weight: 700
+	font-family: 'PlayfairDisplay'
+
+.heading-footer
+	font-size: 1.5em
+	letter-spacing: 0.025em
+
+.text-carousel-top
+	font-size: 1em
+	line-height: 1.75em
+	margin-top: 40px
+	margin-bottom: 40px
+
+.text-story
+	font-size: 1em
+	line-height: 1.6em
+	margin-top: 20px
+	margin-bottom: 20px
+	font-family: "Roboto"
+	font-weight: 300
+
+.text-expertise
+	font-size: 0.9em
+	line-height: 1.6em
+	font-family: "Roboto"
+	font-weight: 300
+
+.text-blockquote
+	font-size: 1em
+	line-height: 1.9em
+
+.text-footer
+	font-size: 0.85em
+	line-height: 1.6em
+
+.text-become
+	display: block
+
+.carousel-top
+	margin-top: 20vh
+	margin-left: auto
+	margin-right: auto
+	width: 70%
+	min-height: 385px
+	font-family: "Roboto"
+	font-weight: 300
+
+.carousel-indicators-top
+	top: 60vh
+	li.active
+		background: #00e0d0
+
+.heading-carousel-top:after
+	margin: 35px auto
+	content: ""
+	display: block
+	height: 1px
+	width: 50px
+	background: #00e0d0
+
+.row-expertise
+	margin-top: 80px
+	margin-bottom: 80px
+
+.team-subheading
+	margin-bottom: 60px
+	width: 80%
+	margin-left: auto
+	margin-right: auto
+
+.row-teams
+	margin-top: 40px
+	margin-bottom: 40px
+
+.row-teams-join
+	margin-top: 20px
+	margin-bottom: 20px
+
+.join
+	margin-bottom: 40px
+
+.subheading-expertise:after
+	margin: 35px auto
+	content: ""
+	display: block
+	height: 1px
+	width: 50px
+	background: #000000
+	font-family: "PlayfairDisplay"
+	font-weight: 400
+
+.td:after
+	margin: 35px auto
+	content: ""
+	display: block
+	height: 1px
+	width: 100%
+	background: #ffffff
+
+.team-subheading:after
+	margin: 35px auto
+	content: ""
+	display: block
+	height: 1px
+	width: 50px
+	background: #ffffff
+
+.carousel-inner
+	color: #ffffff
+
+button
+	text-transform: uppercase
+	color: #00e0d0
+	margin: 0px !important
+	background: transparent !important
+	border: 1px solid #00e0d0
+	padding: 10px 25px
+	outline: none
+	font-family: "HammerSmithone"
+	font-weight: 400
+	&:active
+		background: none !important
+		color: #bef7f3
+		border: 1px solid #bef7f3
+	&.wt:active
+		background: none !important
+		color: #30235f
+		border: 1px solid #30235f
+
+.story-heading
+	margin: 0
+
+.video-link
+	position: absolute
+	left: 50%
+	top: 40%
+	transform: translateX(-50%)
+	&:hover
+		opacity: 0.5
+		transition: 0.5s
+
+.team-photo
+	width: 220px
+	box-shadow: 2px 2px 3px black, 3px 2px 12px black
+
+.expertise-img
+	height: 42px
+
+.gal-heading
+	margin-bottom: 80px
+
+.heading-gal
+	margin: 0
+	display: inline
+
+.gal-link
+	display: inline
+	margin-left: 60%
+
+.right-arrow
+	width: 12px
+
+.gal-wrap
+	column-count: 4
+	column-gap: 5px
+
+.gal-item
+	display: inline-block
+	padding-bottom: 5px
+	width: 100%
+	margin: 0
+
+.gal-load
+	margin-top: 60px
+
+.form-heading, .form-control, .btn-form
+	margin-top: 20px
+	margin-bottom: 20px
+
+.coma
+	display: block
+	margin: 60px auto
+
+.quote-author
+	margin: 60px auto
+
+.carousel-indicators-bot
+	li
+		border: none
+		width: 50px
+		height: 40px
+		&.active
+			background-size: 60px
+			width: 60px
+			height: 60px
+			border-radius: 50%
+	bottom: 10px
+
+.carousel-inner-bottom
+	position: relative
+
+.slide-left
+	position: absolute
+	z-index: 100
+	width: 30px
+	height: 30px
+	bottom: 30px
+	left: 390px
+	background-image: url(../img/arrow_left.png)
+	background-size: 10px
+	background-position: center
+	background-repeat: no-repeat
+
+.slide-right
+	position: absolute
+	z-index: 100
+	width: 30px
+	height: 30px
+	bottom: 30px
+	right: 390px
+	background-image: url(../img/arrow_right.png)
+	background-size: 10px
+	background-position: center
+	background-repeat: no-repeat
+
+.indicator-img-1
+	background-image: url(../img/face_1.png)
+	background-size: 40px
+	background-position: center
+	background-repeat: no-repeat
+
+.indicator-img-2
+	background-image: url(../img/face_2.png)
+	background-size: 40px
+	background-position: center
+	background-repeat: no-repeat
+
+.indicator-img-3
+	background-image: url(../img/face_3.png)
+	background-size: 40px
+	background-position: center
+	background-repeat: no-repeat
+
+.indicator-img-4
+	background-image: url(../img/face_4.png)
+	background-size: 40px
+	background-position: center
+	background-repeat: no-repeat
+
+.indicator-img-5
+	background-image: url(../img/face_5.png)
+	background-size: 40px
+	background-position: center
+	background-repeat: no-repeat
+
+.quote-author-name
+	display: block
+	font-size: 1.5em
+
+.quote-author-position
+	display: block
+	margin: 5px auto 140px
+	font-size: 1em
+
+.form-control
+	border-radius: 0
+
+textarea:focus, input:focus
+	border-color: #00e0d0 !important
+
+.form-heading
+	margin-bottom: 50px
+
+.heading-client
+	margin-left: 20px
+	margin-bottom: 30px
+
+.clients-table
+	font-size: 0
+
+.clients-items
+	display: inline-block
+	width: 50%
+	padding: 20px
+	box-sizing: border-box
+
+.container-icons
+	margin-top: 44px
+	display: block
+	float: none
+	clear: both
+
+.form-group-bot
+	font-size: 0
+
+.mail-input
+	display: inline-block
+	background: transparent
+	margin-top: 30px
+	border: 2px solid grey
+	font-size: 12px
+	padding: 12px
+
+.bt-bot
+	display: inline-block
+	margin-top: 30px
+	font-size: 0px
+	background: gray url(/img/letter.png) center no-repeat !important
+	border: none
+	outline: none
+	margin-left: 20px
+	width: 75px
+	height: 45px
+	vertical-align: bottom
+
+.footer-icon
+	float: left
+	padding: 0px
+
+.text-footer
+	margin-top: 40px
+	margin-bottom: 40px
+	overflow: auto
+	color: white
+
+.text-link
+	display: block
+	cursor: pointer
+	padding-left: 10px
+	margin-left: auto
+	line-height: 15px
+
+.row-social
+	margin-top: 25px
+
+.social-icons
+	margin-top: 10px
+	margin-bottom: 10px
+
+
+
+
+
+
+
+
+
+
+
+@import "media" // Всегда в конце
